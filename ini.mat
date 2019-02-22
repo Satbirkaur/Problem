@@ -1,0 +1,25 @@
+
+%% gamma in kN/m^3
+# name: gamma
+# type: scalar
+16.10
+
+%% Depth of water table in m
+# name: Dw
+# type: scalar
+9
+
+%% Input Data for N vale and depth
+%% Table header (Sr.no, Depth, N_observed)
+# name: spt
+# type: matrix
+# rows: 8
+# columns: 3
+1 1.5 6
+2 3.0 7
+3 4.5 8
+4 6.0 10
+5 7.5 11
+6 9.0 10
+7 12 12
+8 15 14
