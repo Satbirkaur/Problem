@@ -1,16 +1,66 @@
+# name: phi
+# type: scalar
+30
+
+# name: cohesion
+# type: scalar
+0
 
 %% gamma in kN/m^3
 # name: gamma
 # type: scalar
-16.10
+16.1
 
-%% Depth of water table in m
+
+% depth_of_footing 
+% Df in meter
+# name: Df
+# type: scalar
+1.5
+
+
+% length_of_footing
+% L in meter 
+# name: L
+# type: scalar
+2.5
+
+% width_of_footing 
+% Wf in meter
+# name: Wf
+# type: scalar
+2.5
+
+% depth_of_water_table
+% Dw in meter 
 # name: Dw
 # type: scalar
 9
 
+
+# name: alpha
+# type: scalar
+0
+
+
+%% 1_for_rectangular
+%% 2_for_square
+%% 3_for_strip
+%% 4_for_circle
+
+
+# name: shape
+# type: scalar
+3
+
+%% Factor of Safety
+# name: FOS
+# type: scalar
+2.5
+
+
 %% Input Data for N vale and depth
-%% Table header (Sr.no, Depth, N_observed)
+%% Sr.no Depth N_observed
 # name: spt
 # type: matrix
 # rows: 8
